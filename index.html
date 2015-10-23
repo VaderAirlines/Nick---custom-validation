@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Custom options file mockup</title>
+</head>
+
+<body>
+    <h1>custom jquery validation object mockup</h1>
+    Geef hier een custom waarde in: <input type="text" id="txtCustomValue" />&nbsp;<input type="button" id="btnSetValue" value="set value" />
+    <br><br>
+    <input type="button" id="btnRemoveCustomOptionValue" value="remove custom option value" />
+    <br><br>
+    <input type="button" id="btnShowOptionValue" value="show option value" />
+	<br><br>
+	<h1>uitleg</h1>
+	<p>Bij het starten van de pagina wordt de default option value getoond. Deze komt zogezegd van de styleguide.</p>
+	<p>Druk je op de knop 'show option value' wordt de huidige option value ge-alert.</p>
+	<p>Via de knop 'set value' (en een ingevulde waarde in het tekstvak) kan je de default option value overschrijven.</p>
+	<p>Druk je dan terug op 'show option value' kan je het resultaat zien.</p>
+	<p>Wil je de custom value terug verwijderen kan je dat doen door op de knop 'remove custom option value' te drukken.</p>
+	<p>Je kan dan alweer de waarde controleren door de knop 'show option value'</p>
+	<br>
+	<h2>Ik heb dit voorbeeld gemaakt met prototypal inheritance zoals je zei.<br>Dit is inderdaad wel een goede oplossing denk ik ook.</h2>
+
+    <!--JS - vendor-->
+    <script src="scripts/vendor/jquery-2.1.4.min.js"></script>
+
+    <!-- JS - custom -->
+    <script src="scripts/on_server/jquery_default_options_file.js"></script>
+    <script src="scripts/custom/jquery_custom_options.js"></script>
+    <script src="scripts/on_server/jquery_validation.js"></script>
+
+</body>
+
+</html>
